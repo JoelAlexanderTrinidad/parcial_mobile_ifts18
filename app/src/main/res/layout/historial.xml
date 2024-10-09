@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#E0E0E0"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv1_1"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="historial de inversiones"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/TV1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:text="banco: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="interes generado: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="monto total: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="banco 2: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="interes generado 2: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="monto total 2: "
+        android:typeface="monospace"/>
+
+
+    <TextView
+        android:id="@+id/TV1_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="banco: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="interes generado: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="monto total: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="banco 2: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="interes generado 2: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="monto total 2: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="banco: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="interes generado: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="monto total: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="banco 2: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="interes generado 2: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="monto total 2: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="banco: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="interes generado: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="monto total: "
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/TV1_23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="banco 2: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="interes generado 2: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="monto total 2: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="banco: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="interes generado: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="monto total: "
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/TV1_29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="banco 2: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="interes generado 2: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="monto total 2: "
+        android:typeface="monospace"/>
+
+    <Button
+        android:id="@+id/atras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="volver atras"/>
+
+</LinearLayout>

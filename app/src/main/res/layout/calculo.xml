@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E0E0E0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F.T.H.L.S"
+        android:textSize="60dp"
+        android:textColor="#009688"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/TV0_1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="tipo de inversion:  "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV1_1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="monto inicial:  "
+        android:typeface="monospace"/>
+    <TextView
+        android:id="@+id/TV3_1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="plazo de dias es:  "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV2_1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="banco es: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV4_1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="intereses generados son: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV5_1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="monto total: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV2_1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="segundo banco es: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV4_1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="intereses generados son: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV5_1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="monto total: "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/TV6_1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="sugerencia: "
+        android:typeface="monospace"/>
+
+    <Button
+        android:id="@+id/atras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="volver atras"/>
+    <Button
+        android:id="@+id/finalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="finalizar"/>
+
+
+
+
+
+
+
+</LinearLayout>

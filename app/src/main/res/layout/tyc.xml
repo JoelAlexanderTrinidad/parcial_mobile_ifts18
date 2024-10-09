@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/terminoYCondiciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Objeto del Contrato
+El Plazo Fijo es una operación financiera mediante la cual el cliente deposita una cantidad de dinero en una entidad bancaria por un período determinado, a cambio de recibir una tasa de interés fija al vencimiento.
+
+2. Monto Mínimo
+El depósito mínimo requerido para la constitución del Plazo Fijo será determinado por la entidad bancaria y puede variar según el tipo de Plazo Fijo elegido (tradicional, UVA, pre-cancelable, etc.).
+
+3. Plazo del Depósito
+El cliente elige el plazo durante el cual su dinero permanecerá depositado. Los plazos comunes son de 30, 60, 90, 180 o 365 días. Una vez constituido el Plazo Fijo, no podrá retirarse el capital antes de su vencimiento sin la correspondiente penalización, salvo que se trate de un Plazo Fijo pre-cancelable.
+
+4. Tasa de Interés
+La tasa de interés ofrecida será fija durante el plazo acordado. Puede ser nominal anual, efectiva anual o diaria, dependiendo de las políticas de la entidad financiera. La tasa de interés podrá variar según el monto y el plazo elegido.
+
+5. Pago de Intereses
+Al finalizar el plazo acordado, el cliente recibirá el capital inicial más los intereses generados. El pago de los intereses se realizará en una cuenta corriente o de ahorro que el cliente haya designado previamente.
+
+6. Renovación Automática
+El cliente puede optar por la renovación automática del Plazo Fijo. En tal caso, al vencimiento del plazo, el capital y los intereses generados serán depositados nuevamente bajo las mismas condiciones iniciales, a la tasa vigente al momento de la renovación.
+
+7. Impuestos y Retenciones
+Los intereses generados pueden estar sujetos a impuestos y retenciones conforme a la legislación vigente en la jurisdicción aplicable."
+        android:padding="10sp"
+        android:textSize="15sp"
+        android:clickable="true"
+        android:focusable="true" />
+<Button
+    android:id="@+id/volver1"
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="volver al inicio"/>
+</LinearLayout>

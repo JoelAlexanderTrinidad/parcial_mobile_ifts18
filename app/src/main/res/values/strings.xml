@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">parcial 1° mobile</string>
+      <string name="asteriscos">****</string>
+
+
+
+      <string-array name="tiempoDeInversion">
+           <item>tiempo de inversion</item>
+           <item>30</item>
+           <item>60</item>
+           <item>90</item>
+      </string-array>
+
+      <string-array name="opcionDeInversion">
+        <item>opcion de inversion</item>
+        <item>plazo fijo</item>
+        <item>fondo comun</item>
+
+
+       </string-array>
+
+    <string-array name="entidades">
+        <item>entidad bancaria</item>
+        <item>Santander</item>
+        <item>BBVA</item>
+        <item>Galicia</item>
+
+
+    </string-array>
+
+</resources>
